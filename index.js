@@ -14,4 +14,4 @@ prev.addEventListener('click', function(){
 setInterval(function(){
     let items = document.querySelectorAll('.item')
     document.querySelector('.slide').appendChild(items[0])
-},10000)
+},5000)
