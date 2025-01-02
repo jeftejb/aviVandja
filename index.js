@@ -14,4 +14,7 @@ prev.addEventListener('click', function(){
 setInterval(function(){
     let items = document.querySelectorAll('.item')
     document.querySelector('.slide').appendChild(items[0])
-},5000)
+},10000)
+
+let url = window.location.pathname
+console.log("ulr actual "+url)

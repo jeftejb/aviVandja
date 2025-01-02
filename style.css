@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color:#eee
+}
 
 body{
     background: #ccc6c6;
@@ -138,8 +142,48 @@ body{
 
 
 
+.nav{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    height: 48px;
+    z-index: 1000;
+    
+    backdrop-filter: brightness(70%);
+
+    padding: 2rem;
+}
+
+.container_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    list-style: none;
+    
+    justify-self: center;
+    
+
+}
 
 
+
+.playwrite{
+  font-family: "Playwrite BE WAL", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.outfit{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: large;
+  font-style: normal;
+}
 
 
 
